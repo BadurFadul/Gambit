@@ -29,7 +29,6 @@ app.use('/api/register', registerRouter)
 app.use('/api/login', loginRouter)
 app.use('/api/users', usersRouter)
 
-
 app.use(middleware.unknownEndpoint)
 app.use(middleware.errorHandler)
 
