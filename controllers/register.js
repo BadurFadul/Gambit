@@ -2,7 +2,7 @@ const registerRounter = require('express').Router()
 const data = require('../data')
 
 
-registerRounter.get('/', (req, res)=>{
+registerRounter.get('/info', (req, res)=>{
     res.send('<h1>Hello World </h1>')
 })
 
